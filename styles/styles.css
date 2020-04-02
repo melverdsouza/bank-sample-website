@@ -1,0 +1,270 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Public Sans", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+header .container p {
+  float: right;
+  opacity: 0.8;
+}
+
+.banner {
+  text-align: center;
+  background-color: #fafafa;
+  padding-top: 1%;
+}
+
+.banner .container h2 {
+  font-size: 34px;
+  width: 85%;
+  margin: 7% auto;
+  color: #2d314d;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.banner .container p {
+  color: #9698a6;
+  margin: auto;
+  font-size: 17px;
+  text-align: center;
+}
+
+.banner .container button {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  border: none;
+  border-radius: 25px;
+  padding: 3%;
+  font-weight: bold;
+  font-size: 16px;
+  width: 50%;
+  margin: 10% 0%;
+}
+
+.mockup {
+  display: none;
+}
+
+.marketing {
+  background-color: #f3f4f6;
+}
+
+.marketing .container {
+  text-align: center;
+}
+
+.marketing .container h3 {
+  font-weight: 500;
+  width: 70%;
+  font-size: 30px;
+  margin: 0% auto;
+  padding-top: 8%;
+  margin-bottom: 5%;
+  opacity: 0.8;
+}
+
+.marketing .container p {
+  color: #9698a6;
+  padding-bottom: 15%;
+  margin-bottom: 0%;
+}
+
+.each-mkt-point h5 {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.7;
+  margin: 4% auto;
+}
+
+.articles {
+  background-color: #fafafa;
+  text-align: center;
+  padding-bottom: 15%;
+}
+
+.articles .container h3 {
+  font-size: 28px;
+  margin: 0%;
+  padding: 10% 0% 7% 0%;
+  color: #2d314d;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.each-article {
+  background-color: white;
+  padding-bottom: 1%;
+  margin-bottom: 7%;
+  border-radius: 5px;
+}
+
+.each-article img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.each-article h6 {
+  color: #9698a6;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 500;
+  width: 90%;
+  margin: 5% auto;
+}
+
+.each-article h4 {
+  width: 90%;
+  margin: 2% auto;
+  color: #2d314d;
+  opacity: 0.7;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.each-article p {
+  font-size: 16px;
+  width: 90%;
+  margin: 5% auto;
+  color: #9698a6;
+  text-align: left;
+  opacity: 0.7;
+}
+
+footer {
+  background-color: #2d314d;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+footer h5 {
+  color: white;
+  opacity: 0.9;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0%;
+  padding-top: 10%;
+}
+
+footer button {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  border: none;
+  border-radius: 25px;
+  padding: 3%;
+  font-weight: bold;
+  font-size: 16px;
+  width: 50%;
+  margin-top: 10%;
+}
+
+footer h6 {
+  padding-top: 3%;
+  margin-bottom: 0%;
+  color: white;
+  opacity: 0.9;
+  font-size: 12px;
+}
+
+.social-links {
+  width: 80%;
+  margin: 5% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.page-links a {
+  color: white;
+  opacity: 0.9;
+  text-decoration: none;
+  padding-top: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  .banner .container h2 {
+    margin: 5% auto;
+  }
+  .banner .container button {
+    margin: 5% auto;
+    font-size: 18px;
+  }
+  .marketing .container h3 {
+    padding-top: 5%;
+    opacity: 0.9;
+  }
+  .marketing .container p {
+    font-size: 18px;
+    padding-bottom: 5%;
+    color: black;
+    opacity: 0.7;
+  }
+  .each-mkt-point h5 {
+    opacity: 0.8;
+  }
+  .each-mkt-point h6 {
+    font-size: 16px;
+    padding-bottom: 8%;
+    color: #9698a6;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .articles .container h3 {
+    font-size: 32px;
+    padding-top: 7%;
+  }
+  .each-article {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 7%;
+  }
+  footer {
+    padding-bottom: 2%;
+  }
+  footer h5 {
+    padding-top: 5%;
+    font-size: 28px;
+  }
+  footer button {
+    margin-top: 7%;
+  }
+  .social-links {
+    margin-bottom: 3%;
+  }
+  .page-links a {
+    padding-top: 3%;
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
